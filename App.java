@@ -247,5 +247,24 @@ public class App {
                 System.out.println("Selecione uma opção válida.");
         }
     }
+    public static int encontrarMesComMaiorCusto(double[] custos) {
+       
+        int mesComMaiorCusto = 0;
+        double maiorCusto = custos[0];
+
+        for (int i = 1; i < custos.length; i++) {
+            if (custos[i] > maiorCusto) {
+                maiorCusto = custos[i];
+                mesComMaiorCusto = i;
+            }
+        }
+        
+                maiorCusto = custos[i];
+                mesComMaiorCusto = i;
+
+                maiorCusto = custos[i];
+return mesComMaiorCusto;
+    }
+}
 
 }
