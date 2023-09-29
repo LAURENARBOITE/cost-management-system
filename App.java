@@ -234,7 +234,7 @@ public class App {
                 }
                 break;
             case "4":
-                System.out.print("Digite o departamento o departamento: ");
+                System.out.print("Digite o departamento: ");
                 String departamento = entrada.nextLine();
                 List<RegistroDeCusto> resultadoDepartamento = registroDeCusto.pesquisarDepartamento(departamento);
                 if (resultadoDepartamento != null) {
@@ -258,7 +258,6 @@ public class App {
                 mesComMaiorCusto = i;
             }
         }
-        
                 maiorCusto = custos[i];
                 mesComMaiorCusto = i;
 
